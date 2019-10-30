@@ -319,10 +319,22 @@ ul li{
 .navbar{
     background-color: #ffdede;
 }
+
+.online-info-img{
+    max-width: 400px;
+}
+.adwised-services-img{
+     max-width: 400px;
 }
 
-@media (min-width: 768px) and (max-width: 1000px) {
-   .collapse {
-       display: none !important;
-   }
+.running-campaigns-img{
+    max-width: 400px;
+}
+
+.counting-number{
+    font-size: 35px;
+    font-weight: normal;
+    color: #041b33;
+}
+
 }
