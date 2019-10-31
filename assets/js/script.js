@@ -1,6 +1,6 @@
-$('.customers-carousel').slick({
+$(".customers-carousel").slick({
   centerMode: true,
-  centerPadding: '0',
+  centerPadding: "0",
   slidesToShow: 3,
   autoplay: true,
   autoplaySpeed: 2000,
@@ -14,7 +14,7 @@ $('.customers-carousel').slick({
         adaptiveHeight: true,
         arrows: false,
         centerMode: true,
-        centerPadding: '40px',
+        centerPadding: "40px",
         slidesToShow: 2
       }
     },
@@ -23,7 +23,7 @@ $('.customers-carousel').slick({
       settings: {
         arrows: false,
         centerMode: true,
-        centerPadding: '40px',
+        centerPadding: "40px",
         slidesToShow: 1
       }
     }
@@ -33,44 +33,60 @@ $('.customers-carousel').slick({
 //counters
 
 (function($) {
-	$.fn.jQuerySimpleCounter = function( options ) {
-	    var settings = $.extend({
-	        start:  0,
-	        end:    100,
-	        easing: 'swing',
-	        duration: 400,
-	        complete: ''
-	    }, options );
-
-	    var thisElement = $(this);
-
-	    $({count: settings.start}).animate({count: settings.end}, {
-			duration: settings.duration,
-			easing: settings.easing,
-			step: function() {
-				var mathCount = Math.ceil(this.count);
-				thisElement.text(mathCount);
-			},
-			complete: settings.complete
-		});
-	};
-
-}(jQuery));
-
-      $("#number1").jQuerySimpleCounter({
+  $.fn.jQuerySimpleCounter = function(options) {
+    var settings = $.extend(
+      {
         start: 0,
-        end: 60000000,
-        duration: 3000
-      });
+        end: 100,
+        easing: "swing",
+        duration: 400,
+        complete: ""
+      },
+      options
+    );
 
-      $("#number2").jQuerySimpleCounter({
-        start: 0,
-        end: 10000,
-        duration: 3000
-      });
+    var thisElement = $(this);
 
-      $("#number3").jQuerySimpleCounter({
-        start: 0,
-        end: 10000,
-        duration: 3000
-      });
+    $({ count: settings.start }).animate(
+      { count: settings.end },
+      {
+        duration: settings.duration,
+        easing: settings.easing,
+        step: function() {
+          var mathCount = Math.ceil(this.count);
+          thisElement.text(mathCount);
+        },
+        complete: settings.complete
+      }
+    );
+  };
+})(jQuery);
+
+$("#number1").jQuerySimpleCounter({
+  start: 0,
+  end: 60000000,
+  duration: 3000
+});
+
+$("#number2").jQuerySimpleCounter({
+  start: 0,
+  end: 10000,
+  duration: 3000
+});
+
+$("#number3").jQuerySimpleCounter({
+  start: 0,
+  end: 10000,
+  duration: 3000
+});
+
+// scroll
+
+$("#adwise-customers").click(function() {
+  $("html,body").animate(
+    {
+      scrollTop: $("#customers").offset().top
+    },
+    "slow"
+  );
+});
