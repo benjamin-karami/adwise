@@ -118,10 +118,10 @@ $("#online-panel").click(function() {
   );
 });
 
-$("#adwised-services").click(function() {
+$("#special-services").click(function() {
   $("html,body").animate(
     {
-      scrollTop: $("#online-info").offset().top
+      scrollTop: $("#adwised-services").offset().top
     },
     "slow"
   );

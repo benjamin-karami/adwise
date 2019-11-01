@@ -111,7 +111,13 @@
           اگر به دنبال افزایش چشمگیر مشتری با هدف حداقل هزینه هستید، ادوایز در
           خدمت شماست.
         </p>
-        <a class="btn btn-purple" href="#">ارسال درخواست</a>
+        <a
+          data-toggle="modal"
+          data-target=".bd-example-modal-sm"
+          class="btn btn-purple"
+          href="#"
+          >ارسال درخواست</a
+        >
       </div>
     </section>
 
@@ -136,7 +142,13 @@
               <li>ساخت تیزر تبلیغاتی <span class=""></span></li>
             </ul>
           </div>
-          <a class="btn btn-purple" href="#">ارسال درخواست</a>
+          <a
+            data-toggle="modal"
+            data-target=".bd-example-modal-sm"
+            class="btn btn-purple"
+            href="#"
+            >ارسال درخواست</a
+          >
         </div>
       </div>
     </section>
@@ -163,7 +175,13 @@
             src="./assets/img/requests-image.png"
             alt="requests-image"
           />
-          <a class="btn btn-yellow" href="#">ارسال درخواست</a>
+          <a
+            data-toggle="modal"
+            data-target=".bd-example-modal-sm"
+            class="btn btn-yellow"
+            href="#"
+            >ارسال درخواست</a
+          >
         </div>
       </div>
     </section>
@@ -174,8 +192,35 @@
         کار کردن با ادوایز راحت‌تر از آنست که فکر می‌کنید
       </p>
       <p class="section-title">جزئیات مشتریانتان را در یک‌جا داشته باشید</p>
-      <div class="video-play d-flex justify-content-center align-items-center">
+      <div
+        data-toggle="modal"
+        data-target=".bd-example-modal-lg"
+        class="video-play d-flex justify-content-center align-items-center"
+      >
         <img src="./assets/img/play.png" alt="پخش ویدئو" />
+      </div>
+
+      <!-- modal -->
+      <div
+        class="modal fade bd-example-modal-lg"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="myLargeModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <button
+              type="button"
+              class="close close-video"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <video src="./assets/video/sample-video.mp4" controls></video>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -200,7 +245,13 @@
               <li>پشتیبانی 24 ساعته و مشاوره رایگان <span class=""></span></li>
             </ul>
           </div>
-          <a class="btn btn-purple" href="#">ارسال درخواست</a>
+          <a
+            data-toggle="modal"
+            data-target=".bd-example-modal-sm"
+            class="btn btn-purple"
+            href="#"
+            >ارسال درخواست</a
+          >
         </div>
       </div>
     </section>
@@ -218,7 +269,13 @@
               <li>کاشت مو، ریش و ابرو <span class=""></span></li>
             </ul>
           </div>
-          <a class="btn btn-purple" href="#">ارسال درخواست</a>
+          <a
+            data-toggle="modal"
+            data-target=".bd-example-modal-sm"
+            class="btn btn-purple"
+            href="#"
+            >ارسال درخواست</a
+          >
         </div>
         <div
           class="col-12 col-lg-6 d-flex mt-5 mt-lg-0 d-flex justify-content-center"
@@ -358,6 +415,34 @@
         </div>
       </div>
     </section>
+
+    <!-- send request modal -->
+    <div
+      class="modal fade bd-example-modal-sm"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="mySmallModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+          <h2>شماره تماس خود را وارد کنید</h2>
+          <div class="input-group input-group-sm mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="inputGroup-sizing-sm"
+                >شماره تماس</span
+              >
+            </div>
+            <input
+              type="text"
+              class="form-control"
+              aria-label="Sizing example input"
+              aria-describedby="inputGroup-sizing-sm"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script src="./node_modules/jquery/dist/jquery.min.js"></script>
     <script src="./node_modules/jquery-migrate/dist/jquery-migrate.min.js"></script>
