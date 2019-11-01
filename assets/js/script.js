@@ -90,3 +90,57 @@ $("#adwise-customers").click(function() {
     "slow"
   );
 });
+
+$("#about-adwise").click(function() {
+  $("html,body").animate(
+    {
+      scrollTop: $("#introduction").offset().top
+    },
+    "slow"
+  );
+});
+
+$("#campain-design").click(function() {
+  $("html,body").animate(
+    {
+      scrollTop: $("#running-campaigns").offset().top
+    },
+    "slow"
+  );
+});
+
+$("#online-panel").click(function() {
+  $("html,body").animate(
+    {
+      scrollTop: $("#online-info").offset().top
+    },
+    "slow"
+  );
+});
+
+$("#adwised-services").click(function() {
+  $("html,body").animate(
+    {
+      scrollTop: $("#online-info").offset().top
+    },
+    "slow"
+  );
+});
+
+$("#attract-Customer").click(function() {
+  $("html,body").animate(
+    {
+      scrollTop: $("#specialty-field").offset().top
+    },
+    "slow"
+  );
+});
+
+$("#contactUs").click(function() {
+  $("html,body").animate(
+    {
+      scrollTop: $("#socials").offset().top
+    },
+    "slow"
+  );
+});
