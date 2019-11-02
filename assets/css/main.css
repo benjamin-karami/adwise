@@ -160,6 +160,58 @@ ul li {
   z-index: 1;
 }
 
+.absolute-pink-bg{
+  position: absolute;
+  left: 0;
+  max-width: 1000px;
+  max-height: 1000px;
+}
+
+.absolute-yellow-bg {
+    position: absolute;
+    right: 0;
+    max-width: 700px;
+    max-height: 500px;
+    top: 2026px;
+}
+
+@media (min-width: 1950px){
+  .absolute-pink-bg{
+ display: none;
+}
+
+  .absolute-yellow-bg{
+ display: none;
+}
+}
+
+@media (max-width: 994px){
+  .absolute-yellow-bg{
+   display: none;
+  }
+}
+
+@media (max-width: 890px){
+  .absolute-pink-bg{
+   max-width: 800px; 
+   max-height: 800px;
+  }
+}
+
+@media (max-width: 700px){
+  .absolute-pink-bg{
+   max-width: 500px; 
+   max-height: 500px;
+  }
+}
+
+@media (max-width: 380px){
+  .absolute-pink-bg{
+   max-width: 450px; 
+   max-height: 450px;
+  }
+}
+
 /********************************************************************************/
 
 #logo {
@@ -259,7 +311,7 @@ ul li {
 .customer {
   width: 100px;
   height: 100px;
-  background-color: #ffdede;
+  background-color: #faf5f9;
   padding: 10px;
   display: flex;
   justify-content: center;
@@ -269,12 +321,13 @@ ul li {
 }
 
 .customer img {
-  max-width: 50px;
-  transform: rotate(-45deg);
+    width: 50px;
+    height: 50px;
+    transform: rotate(-45deg);
 }
 
 .customer-contents {
-  padding: 20px 60px;
+  padding: 20px 5px 12px;
   text-align: center;
   background: #fff;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
@@ -354,7 +407,23 @@ video {
  .left-side, .right-side, .midel-side{
      display: flex;
      align-items: center;
-     justify-content: center;
+     font-size: 14px;
+     width: 150px;
+ }
+
+  .left-side{
+   flex: 0.32;
+   justify-content: flex-start;
+ }
+
+ .midel-side{
+   flex: 0.32;
+   justify-content: center;
+ }
+
+ .right-side{
+   flex: 0.65;
+   justify-content: flex-end;
  }
 
 .scale-up-center1 {
@@ -630,4 +699,149 @@ video {
     align-items: center;
     justify-content: center;
   }
+
+  .navbar-nav{
+    display: flex;
+    flex-direction: column-reverse;
+
+  }
+
+
+}
+
+@media only screen and (max-width: 700px){
+.adwised-services-img {
+    max-width: 300px;
+}
+.running-campaigns-img {
+    max-width: 300px;
+}
+.specialty-field-img {
+    max-width: 190px;
+}
+
+.number-text {
+    font-size: 15px;
+}
+
+.counting-number {
+    font-size: 30px;
+}
+
+.introduction-container p:nth-child(2) {
+    font-size: 23px;
+}
+
+.introduction-container p:nth-child(3) {
+    font-size: 18px;
+}
+
+.introduction-container p:nth-child(4) {
+    font-size: 13px;
+}
+
+#running-campaigns {
+    margin-top: 60px;
+}
+
+ .left-side, .right-side, .midel-side{
+     display: flex;
+     align-items: center;
+     font-size: 12px;
+     width: 90px;
+ }
+
+.section-title {
+    font-size: 18px;
+}
+
+#video-sec {
+  margin-top: 100px;
+  text-align: center;
+}
+
+#adwised-services {
+    margin-top: 100px;
+}
+
+#customers {
+    margin-top: 100px;
+}
+
+#introduction {
+    margin-top: 50px;
+}
+
+.list-container {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+
+.customer {
+    width: 70px;
+    height: 70px;
+}
+
+.customer img {
+    max-width: 40px;
+}
+#socials {
+    margin-top: 20px;
+}
+
+.customer-contents {
+    padding: 20px 4px 8px;
+}
+
+.customers-carousel {
+    margin-top: -70px;
+}
+
+#online-info {
+    margin-top: 100px;
+}
+
+#specialty-field {
+    margin-top: 100px;
+}
+
+}
+
+
+@media only screen and (max-width: 700px){
+.introduction-container p:nth-child(2) {
+    font-size: 20px;
+}
+
+.introduction-container p:nth-child(3) {
+    font-size: 15px;
+}
+
+ul li {
+    font-size: 11px;
+}
+
+.diamond-list span:after {
+  top: 31px;
+}
+
+.section-title {
+    font-size: 16px;
+}
+
+.specialty-field-img {
+    max-width: 165px;
+}
+
+.counting-number {
+    font-size: 25px;
+}
+
+}
+
+@media (max-width: 1200px) and (min-width: 992px){
+  .navbar {
+    background: rgba(255,255,255,0.7);
+}
 }

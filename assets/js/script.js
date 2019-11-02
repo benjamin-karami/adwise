@@ -127,7 +127,7 @@ $("#special-services").click(function() {
   );
 });
 
-$("#attract-Customer").click(function() {
+$("#attract-Customer, #adwise-statistics").click(function() {
   $("html,body").animate(
     {
       scrollTop: $("#specialty-field").offset().top
