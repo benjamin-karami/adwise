@@ -79,7 +79,7 @@ ul li {
   content: "";
   position: absolute;
   left: -12px;
-  top: 35px;
+  top: 37px;
   width: 0;
   height: 0;
   border: 12px solid transparent;
@@ -132,7 +132,7 @@ ul li {
 }
 
 .nav-item {
-  font-size: 16px;
+  font-size: 12px;
   font-weight: bold;
   color: #041b33;
 }
@@ -334,6 +334,238 @@ video {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+    .margin-10px{
+        margin: -3px auto;
+    }
+
+ .purple-carusel{
+     background: #33043385;
+     color: #fff;
+     display: flex;
+     justify-content: space-around;
+     border-radius: 10px;
+     transform: scale(0.95);
+     align-items: center;
+     padding: 5px 0;
+ }
+
+ .left-side, .right-side, .midel-side{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+.scale-up-center1 {
+	-webkit-animation: scale-up-center1 6s ease-in-out infinite both;
+	        animation: scale-up-center1 6s ease-in-out infinite both;
+}
+
+@-webkit-keyframes scale-up-center1 {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-background: #330433;
+            background: #330433;
+  }
+    25% {
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+    -webkit-background: #33043385;
+            background: #33043385;
+  }
+    50% {
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+    -webkit-background: #33043385;
+            background: #33043385;
+  }
+    75% {
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+    -webkit-background: #33043385;
+            background: #33043385;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-background: #330433;
+            background: #330433;
+  }
+}
+@keyframes scale-up-center1 {
+   0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-background: #330433;
+            background: #330433;
+  }
+    25% {
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+    -webkit-background: #33043385;
+            background: #33043385;
+  }
+    50% {
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+    -webkit-background: #33043385;
+            background: #33043385;
+  }
+    75% {
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+    -webkit-background: #33043385;
+            background: #33043385;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-background: #330433;
+            background: #330433;
+  }
+}
+
+
+.scale-up-center2 {
+	-webkit-animation: scale-up-center2 6s ease-in-out infinite both;
+	        animation: scale-up-center2 6s ease-in-out infinite both;
+}
+
+@-webkit-keyframes scale-up-center2 {
+  0% {
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+    -webkit-background: #33043385;
+            background: #33043385;
+  }
+    25% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-background: #330433;
+            background: #330433;
+  }
+    50% {
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+    -webkit-background: #33043385;
+            background: #33043385;
+  }
+    75% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-background: #330433;
+            background: #330433;
+  }
+  100% {
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+    -webkit-background: #33043385;
+            background: #33043385;
+  }
+}
+@keyframes scale-up-center2 {
+   0% {
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+    -webkit-background: #33043385;
+            background: #33043385;
+  }
+    25% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-background: #330433;
+            background: #330433;
+  }
+    50% {
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+    -webkit-background: #33043385;
+            background: #33043385;
+  }
+    75% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-background: #330433;
+            background: #330433;
+  }
+  100% {
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+    -webkit-background: #33043385;
+            background: #33043385;
+  }
+}
+
+.scale-up-center3 {
+	-webkit-animation: scale-up-center3 6s ease-in-out infinite both;
+	        animation: scale-up-center3 6s ease-in-out infinite both;
+}
+
+@-webkit-keyframes scale-up-center3 {
+  0% {
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+    -webkit-background: #33043385;
+            background: #33043385;
+  }
+    25% {
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+    -webkit-background: #33043385;
+            background: #33043385;
+  }
+    50% {
+   -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-background: #330433;
+            background: #330433;
+  }
+    75% {
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+    -webkit-background: #33043385;
+            background: #33043385;
+  }
+  100% {
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+    -webkit-background: #33043385;
+            background: #33043385;
+  }
+}
+@keyframes scale-up-center3 {
+   0% {
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+    -webkit-background: #33043385;
+            background: #33043385;
+  }
+    25% {
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+    -webkit-background: #33043385;
+            background: #33043385;
+  }
+    50% {
+  -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-background: #330433;
+            background: #330433;
+  }
+    75% {
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+    -webkit-background: #33043385;
+            background: #33043385;
+  }
+  100% {
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+    -webkit-background: #33043385;
+            background: #33043385;
+  }
 }
 
 /**********************************/
