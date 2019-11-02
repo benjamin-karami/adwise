@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <title>Adwise</title>
     <link
       rel="stylesheet"
@@ -236,7 +237,7 @@
       <div
         data-toggle="modal"
         data-target=".bd-example-modal-lg"
-        class="video-play d-flex justify-content-center align-items-center"
+        class="video-play d-flex justify-content-center align-items-center resize"
       >
         <img src="./assets/img/play.png" alt="پخش ویدئو" />
       </div>
@@ -249,7 +250,7 @@
         aria-labelledby="myLargeModalLabel"
         aria-hidden="true"
       >
-        <div class="modal-dialog modal-lg">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
           <div class="modal-content">
             <button
               type="button"
@@ -367,14 +368,11 @@
 
     <!-- customers -->
     <section id="customers" class="text-center container">
-      <p class="section-title">مشتریان ادوایزد</p>
+      <p class="section-title">  برخی نظرات مشتریان ادوایزد</p>
       <div class="customers-carousel">
          <div
           class="carousel-container d-flex flex-column justify-content-center align-items-center"
         >
-          <div class="customer">
-            <img src="./assets/img/clients-ronesans-logo.png" alt="رنسانس" />
-          </div>
           <div class="customer-contents">
             <p>
          با توجه به اهمیت روزافزون تبلیغات دیجیتال در همه حوزه ها واقعا باید ازتیم ادوایزد برای فعالیت های تخصصی و حرفه ایشان در زمینه جذب مشتری برای کلینیک های زیبایی تشکر کرد.
@@ -385,9 +383,6 @@
         <div
           class="carousel-container d-flex flex-column justify-content-center align-items-center"
         >
-          <div class="customer">
-            <img src="./assets/img/clients-ronika-logo.png" alt="رونیکا" />
-          </div>
           <div class="customer-contents">
             <p>
               با توجه به ظرفیت بالای تبلیغاتی ادوایزد پیشنهاد من به کلیه کلینیک های زیبایی و درمانی اعتماد به این تیم خلاق و جذب مشتری بیش از پیش  است.
@@ -397,34 +392,26 @@
         <div
           class="carousel-container d-flex flex-column justify-content-center align-items-center"
         >
-          <div class="customer">
-            <img src="./assets/img/clients-sadaf-logo.png" alt="صدف" />
-          </div>
-          <!-- <div class="customer-contents">
+          
+          <div class="customer-contents">
             <p>
-              در طول همکاری ما با ادوایز، احتمالا مهمترین نکته برای ما پشتیبانی
-              دقیق و خوبش بوده
+         با توجه به اهمیت روزافزون تبلیغات دیجیتال در همه حوزه ها واقعا باید ازتیم ادوایزد برای فعالیت های تخصصی و حرفه ایشان در زمینه جذب مشتری برای کلینیک های زیبایی تشکر کرد.
             </p>
-          </div> -->
+          </div>
         </div>  
         <div
           class="carousel-container d-flex flex-column justify-content-center align-items-center"
         >
-          <div class="customer">
-            <img src="./assets/img/clients-javane-logo.png" alt="جوانه" />
-          </div>
-          <!-- <div class="customer-contents">
+        <div class="customer-contents">
             <p>
-              
+         با توجه به اهمیت روزافزون تبلیغات دیجیتال در همه حوزه ها واقعا باید ازتیم ادوایزد برای فعالیت های تخصصی و حرفه ایشان در زمینه جذب مشتری برای کلینیک های زیبایی تشکر کرد.
             </p>
-          </div> -->
+          </div>
         </div>
          <div
           class="carousel-container d-flex flex-column justify-content-center align-items-center"
         >
-          <div class="customer">
-            <img src="./assets/img/clients-vip-logo.png" alt="VIP" />
-          </div>
+
           <div class="customer-contents">
             <p>
               در طول همکاری ما با ادوایز، احتمالا مهمترین نکته برای ما پشتیبانی
@@ -432,6 +419,24 @@
             </p>
           </div>
         </div>
+      </div>
+      <p class="section-title mb-5">مشتریان ادوایزد</p>
+      <div class="d-flex justify-content-center flex-wrap">
+          <div class="customer">
+            <img src="./assets/img/clients-ronesans-logo.png" alt="رنسانس" />
+          </div>
+          <div class="customer">
+            <img src="./assets/img/clients-ronika-logo.png" alt="رونیکا" />
+          </div>
+          <div class="customer">
+            <img src="./assets/img/clients-vip-logo.png" alt="VIP" />
+          </div>
+          <div class="customer">
+            <img src="./assets/img/clients-javane-logo.png" alt="جوانه" />
+          </div>
+          <div class="customer">
+            <img src="./assets/img/clients-sadaf-logo.png" alt="صدف" />
+          </div>
       </div>
     </section>
 
@@ -465,7 +470,7 @@
       aria-labelledby="mySmallModalLabel"
       aria-hidden="true"
     >
-      <div class="modal-dialog modal-sm">
+      <div class="modal-dialog modal-sm modal-dialog-centered">
         <div class="modal-content text-center">  
          <p class="font-weight-lighter">برای ثبت درخواست خود کافیست با شماره</p>
          <h3>09123456789</h3>
