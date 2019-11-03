@@ -15,7 +15,7 @@ $(".customers-carousel").slick({
         arrows: false,
         centerMode: true,
         centerPadding: "40px",
-        slidesToShow: 2
+        slidesToShow: 1
       }
     },
     {
@@ -144,3 +144,9 @@ $("#contactUs").click(function() {
     "slow"
   );
 });
+
+var vid = document.getElementById("video");
+
+$('#video-modal').on('hidden.bs.modal', function (e) {
+  vid.pause();
+})
