@@ -150,3 +150,7 @@ var vid = document.getElementById("video");
 $('#video-modal').on('hidden.bs.modal', function (e) {
   vid.pause();
 })
+
+$('#video-modal').on('shown.bs.modal', function (e) {
+  vid.play();
+})
